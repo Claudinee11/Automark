@@ -1,0 +1,30 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../Images/motivation.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.logo{
+    margin-left: 15px;
+    padding: 10px;
+}
+.headers{
+    padding: 10px;
+    margin-left: 500px;
+    color: brown;
+
+
+}
+h1{
+    margin-left: 50px;
+    
+}
+p{
+    margin-left: 50px;
+}
+
+footer{
+    margin-bottom: 0px;
+}
