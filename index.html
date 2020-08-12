@@ -3,29 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Auto Mrk home page</title>
     <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
+<body class="body">
 <header class="new">
     <div class="logo">
-        <a href="./Images/logoEMERAUDE.GIF"></a>
+        <a href="./index.html">Clau<span>dine</span></a>
     </div>
+    <div class="nav" >
+        <div id="bar-icon" class="menu-bar"><i class="fas fa-bars" onclick="menubar()"></i></div>
+        <ul class="home-buttons">
+          <li><a href="./UI/html/signup.html">Signup</a></li>
+          <li><a href="./UI/html/signin.html">Signin</a></li>
+        </ul>
+    </div>
+    <div class="side-bar" id="menu-bar" >
+        <ul class="side-menu">
+          <li><a href="./UI/html/signup.html">Signup</a></li>
+          <li><a href="./UI/html/signin.html">Signin</a></li>
+        </ul>
+        <a href="javascript:void(0)" onclick="away()" class="close">&times;</a>
+    </div>
+</header>
+
+<section id="body">
+    <div class="welcome">
+        <h1>WELCOME</h1>
+        <h2>Sell or Buy a car with the best dealers on the world</h2>
+        <p>Auto Mart is an online marketplace for automobiles of diverse makes, model or body type. With
+          Auto Mart, users can sell their cars or buy from trusted dealerships or private sellers.
+          Our goal is to provide you with a high level of personal attention to your individual needs and guide you through the car buying process</p>
+      <a href="./UI/html/signup.html">Get Started</a>
+    </div>
+</section>
+    <!-- <div class="headers">
         <ul id="header">
-        <div class="headers">
-           <li> <a href="./UI/html/signin.html"></a> </li>
-           <li> <a href="./UI/html/signup.html"></a> </li>
+        
+           <li> <a href="./UI/html/signin.html">signin</a> </li>
+           <li> <a href="./UI/html/signup.html">signup</a> </li>
            
         </div>
 </ul>
 </header>
-<body>
+
     <section>
         <h1>You are welcome</h1>
         <p> please try to challenge your self</p>
-        <button>Get started</button>
+        <a href="./UI/html/signup.html">GetStarted</a>
     </section>
     <footer id="footer">
         <p>learn something new in your everyday life</p>
-    </footer>
+    </footer> -->
+    <footer id="footer">
+        <p>AutoMart, Andela Developer Challenge &copy; Bootcamp Cycle7</p>
+      </footer>
+      <script src="./js/script.js"></script>
 </body>
 </html>
